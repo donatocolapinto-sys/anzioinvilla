@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANZIO IN VILLA – Masterclass & Culinary Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .bg-navy { background-color: #0F2C59; }
+        .text-navy { color: #0F2C59; }
+        .text-gold { color: #D4AF37; }
+        .bg-gold { background-color: #D4AF37; }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER / LOGO -->
+    <header class="bg-navy text-white py-4 shadow-lg sticky top-0 z-50 border-b border-amber-500/20">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo.jpeg" alt="Anzio in Villa Logo" class="h-12 w-auto object-contain">
+                <div>
+                    <h1 class="text-xl font-bold tracking-wider text-white">ANZIO IN VILLA</h1>
+                    <p class="text-xs text-gold font-medium uppercase tracking-widest">Culinary Arts & Masterclass</p>
+                </div>
+            </div>
+            <a href="#prenota" class="bg-gold text-navy font-bold px-5 py-2 rounded-lg shadow hover:bg-yellow-500 transition text-sm">
+                Prenota Ora
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative bg-navy text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="inline-block bg-gold/20 text-gold px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-4 border border-gold/30">
+                Esperienza Esclusiva in Dimora Privata
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold mb-6 leading-tight">
+                Dalla Pescheria al Piatto:<br><span class="text-gold">I Segreti del Pescato di Anzio</span>
+            </h2>
+            <p class="text-slate-300 text-lg mb-8 max-w-2xl mx-auto font-light">
+                Impara le tecniche di sfilettatura e cottura guidato da uno Chef esperto nell'atmosfera riservata della nostra villa con parco privato.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#prenota" class="bg-gold text-navy font-bold px-8 py-4 rounded-xl shadow-lg hover:bg-yellow-500 transition text-lg">
+                    Riserva il Tuo Posto (85€)
+                </a>
+                <a href="#galleria" class="border border-slate-400 text-slate-200 font-medium px-8 py-4 rounded-xl hover:bg-white/10 transition text-lg">
+                    Guarda la Villa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VANTAGGI -->
+    <section class="max-w-6xl mx-auto py-16 px-4 grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
+            <div class="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center mx-auto mb-4 text-gold text-2xl">
+                <i class="fa-solid fa-fish"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2 text-navy">Pesce Freschissimo</h3>
+            <p class="text-slate-600 text-sm">Pescato del giorno selezionato direttamente al porto di Anzio per garantire qualità e tradizione.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
+            <div class="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center mx-auto mb-4 text-gold text-2xl">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2 text-navy">Lezione & Cena</h3>
+            <p class="text-slate-600 text-sm">Corso pratico "hands-on" di 3 ore seguito da una cena conviviale completa con vini locali.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 text-center">
+            <div class="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center mx-auto mb-4 text-gold text-2xl">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <h3 class="font-bold text-xl mb-2 text-navy">Solo 8-10 Posti</h3>
+            <p class="text-slate-600 text-sm">Un gruppo ristretto per permettere a tutti di cucinare attivamente a fianco dello Chef.</p>
+        </div>
+    </section>
+
+    <!-- GALLERIA FOTOGRAFICA -->
+    <section id="galleria" class="bg-slate-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-extrabold text-navy mb-3">La Location dell'Esperienza</h3>
+                <p class="text-slate-600 max-w-xl mx-auto">Immersa nel verde con parco privato, olivi secolari, cicas e ampi portici allestiti per l'accoglienza.</p>
+            </div>
+            <div class="grid sm:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-2xl shadow-md bg-white">
+                    <img src="1.jpg" alt="Parco e olivi secolari" class="w-full h-72 object-cover hover:scale-105 transition duration-500">
+                    <div class="p-3 text-center text-xs font-semibold text-slate-700">Parco Curato & Olivi Secolari</div>
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md bg-white">
+                    <img src="2.jpg" alt="Vista panoramica del parco" class="w-full h-72 object-cover hover:scale-105 transition duration-500">
+                    <div class="p-3 text-center text-xs font-semibold text-slate-700">Vista Panoramica del Parco</div>
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md bg-white">
+                    <img src="3.jpg" alt="Portico in legno e area conviviale" class="w-full h-72 object-cover hover:scale-105 transition duration-500">
+                    <div class="p-3 text-center text-xs font-semibold text-slate-700">Portico & Area Conviviale</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM / PRENOTAZIONE WHATSAPP -->
+    <section id="prenota" class="max-w-3xl mx-auto my-16 px-4">
+        <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-xl border border-slate-200 text-center">
+            <span class="text-emerald-600 font-extrabold uppercase tracking-widest text-xs">Richiedi Informazioni</span>
+            <h3 class="text-3xl font-extrabold text-navy my-3">Riserva il Tuo Posto in Villa</h3>
+            <p class="text-slate-600 mb-8 max-w-lg mx-auto">
+                Le masterclass si svolgono in date selezionate per un massimo di 8-10 partecipanti. Contattaci direttamente su WhatsApp per verificare le prossime disponibilità.
+            </p>
+            
+            <a href="https://wa.me/?text=Ciao!%20Vorrei%20maggiori%20informazioni%20sulle%20prossime%20date%20della%20Masterclass%20Anzio%20in%20Villa." 
+               target="_blank" 
+               class="bg-emerald-600 text-white font-bold px-8 py-4 rounded-2xl shadow-lg hover:bg-emerald-700 transition flex items-center justify-center gap-3 text-lg mx-auto inline-flex">
+                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                Contatta lo Staff via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy text-slate-400 py-8 border-t border-slate-800 text-center text-sm">
+        <p class="text-white font-semibold mb-1">ANZIO IN VILLA – Culinary Arts</p>
+        <p class="text-xs text-slate-400">&copy; 2026 Tutti i diritti riservati. Esperienza enogastronomica privata ad Anzio.</p>
+    </footer>
+
+</body>
+</html>
